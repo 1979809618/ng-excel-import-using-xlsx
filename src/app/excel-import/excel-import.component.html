@@ -1,0 +1,5 @@
+<div class="container">
+  <input type="file" (change)="fileChange($event)" class="import" />
+  <pre class="json" *ngIf="excelData">{{excelData | json}}</pre>
+  <pre class="json" *ngIf="!excelData">Please import an excel file</pre>
+</div>

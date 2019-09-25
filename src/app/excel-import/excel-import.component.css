@@ -1,0 +1,21 @@
+.container {
+  width: 90%;
+  text-align: center;
+  margin-top: 50px;
+  padding: 5%;
+  min-height: 200px;
+  background-color: #f6f6f6;
+}
+
+.json {
+  text-align: left;
+  box-shadow: 0 0 7px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.import {
+  border: 5px solid #74e2b4;
+  padding: 20px;
+}
